@@ -1,0 +1,12 @@
+br\com\lucasatolini\dao\interfaces\IGenericDAO.class
+br\com\lucasatolini\dao\ProdutoDAO.class
+br\com\lucasatolini\dao\interfaces\IClienteDAO.class
+br\com\lucasatolini\domain\Cliente.class
+br\com\lucasatolini\controllers\ProdutoController.class
+br\com\lucasatolini\controllers\ClienteController.class
+br\com\lucasatolini\domain\Produto.class
+br\com\lucasatolini\controllers\IndexController.class
+br\com\lucasatolini\dao\ClienteDAO.class
+br\com\lucasatolini\dao\GenericDAO.class
+br\com\lucasatolini\dao\interfaces\IProdutoDAO.class
+br\com\lucasatolini\domain\Persistence.class

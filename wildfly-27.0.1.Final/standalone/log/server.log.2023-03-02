@@ -1,0 +1,1924 @@
+2023-03-02 17:20:53,179 INFO  [org.jboss.modules] (main) JBoss Modules version 2.0.3.Final
+2023-03-02 17:20:53,889 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.13.Final
+2023-03-02 17:20:53,894 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-03-02 17:20:54,019 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) starting
+2023-03-02 17:20:54,021 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\jboss-modules.jar
+	java.class.version = 63.0
+	java.home = C:\Program Files\Java\jdk-19
+	java.io.tmpdir = C:\Users\LALAMOVE\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Apache\maven\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\LALAMOVE\AppData\Local\Microsoft\WindowsApps;C:\Users\LALAMOVE\AppData\Local\Programs\Microsoft VS Code\bin;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 19.0.1+10-21
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 19
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 19.0.1
+	java.version.date = 2022-10-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 19
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 19.0.1+10-21
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final
+	jboss.host.name = desktop-6uvbiq7
+	jboss.modules.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-6uvbiq7
+	jboss.qualified.host.name = desktop-6uvbiq7
+	jboss.server.base.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone
+	jboss.server.config.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\log
+	jboss.server.name = desktop-6uvbiq7
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	stderr.encoding = cp850
+	stdout.encoding = cp850
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-19\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\jboss-modules.jar -mp C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = BR
+	user.dir = C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\bin
+	user.home = C:\Users\LALAMOVE
+	user.language = pt
+	user.name = LALAMOVE
+	user.script = 
+	user.timezone = America/Sao_Paulo
+	user.variant = 
+2023-03-02 17:20:54,023 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\configuration/logging.properties 
+2023-03-02 17:20:55,018 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.0.0.Final
+2023-03-02 17:20:55,389 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-03-02 17:20:55,390 WARN  [org.jboss.as.controller] (ServerService Thread Pool -- 4) WFLYCTL0481: The runtime dependency package 'io.smallrye.opentracing-contrib' is already registered at location '/subsystem=microprofile-opentracing-smallrye'
+2023-03-02 17:20:55,655 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-03-02 17:20:56,029 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-03-02 17:20:56,044 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.8.Final
+2023-03-02 17:20:56,051 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.8.Final
+2023-03-02 17:20:56,081 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 58) WFLYRS0016: RESTEasy version 6.2.1.Final
+2023-03-02 17:20:56,090 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 54) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-03-02 17:20:56,093 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 55) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-03-02 17:20:56,094 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 56) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-03-02 17:20:56,099 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 67) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-03-02 17:20:56,099 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 76) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-03-02 17:20:56,102 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-03-02 17:20:56,114 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-03-02 17:20:56,129 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 68) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2023-03-02 17:20:56,134 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 65) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-03-02 17:20:56,166 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 78) WFLYWS0002: Activating WebServices Extension
+2023-03-02 17:20:56,167 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 69) WFLYNAM0001: Activating Naming Subsystem
+2023-03-02 17:20:56,172 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 57) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-03-02 17:20:56,320 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "mysql-connector-j-8.0.32.jar" (runtime-name: "mysql-connector-j-8.0.32.jar")
+2023-03-02 17:20:56,350 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 45) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-03-02 17:20:56,371 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.0.Final starting
+2023-03-02 17:20:56,398 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.9.Final)
+2023-03-02 17:20:56,498 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.26.Final
+2023-03-02 17:20:56,499 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-03-02 17:20:56,503 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Starting Naming Service
+2023-03-02 17:20:56,505 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-03-02 17:20:56,526 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-03-02 17:20:56,556 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 77) WFLYUT0014: Creating file handler for path 'C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-03-02 17:20:56,596 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self-signed certificate for host localhost
+2023-03-02 17:20:56,635 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-03-02 17:20:56,644 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-03-02 17:20:56,644 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-03-02 17:20:56,645 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) Queuing requests.
+2023-03-02 17:20:56,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0018: Host default-host starting
+2023-03-02 17:20:56,757 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-03-02 17:20:56,854 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-03-02 17:20:56,893 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-03-02 17:20:56,945 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:20:56,946 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-03-02 17:20:56,963 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-03-02 17:20:56,967 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\deployments
+2023-03-02 17:20:57,080 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 6.1.0.Final (Apache CXF 3.5.2.jbossorg-4) 
+2023-03-02 17:20:59,981 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2023-03-02 17:21:00,000 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = mysql-connector-j-8.0.32.jar
+2023-03-02 17:21:00,005 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:/MySqlDS]
+2023-03-02 17:21:04,201 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:21:04,357 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:21:04,945 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:21:05,227 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-03-02 17:21:05,556 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:21:05,557 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:21:05,558 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:21:05,559 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:21:05,735 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:21:05,778 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:21:05,780 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:21:05,785 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:21:06,137 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:21:06,282 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 5.1.0 (Final)
+2023-03-02 17:21:06,945 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:21:06,986 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 80) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:21:07,146 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 80) HHH000412: Hibernate ORM core version 6.1.5.Final
+2023-03-02 17:21:07,478 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 80) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:21:07,685 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 80) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:21:08,364 INFO  [SQL dialect] (ServerService Thread Pool -- 80) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:21:08,433 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 80) Envers integration enabled? : true
+2023-03-02 17:21:10,360 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:21:10,424 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0010: Deployed "Vendas.war" (runtime-name : "Vendas.war")
+2023-03-02 17:21:10,425 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 46) WFLYSRV0010: Deployed "mysql-connector-j-8.0.32.jar" (runtime-name : "mysql-connector-j-8.0.32.jar")
+2023-03-02 17:21:10,464 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-03-02 17:21:10,466 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 27.0.1.Final (WildFly Core 19.0.1.Final) started in 17810ms - Started 947 of 1178 services (365 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-03-02 17:21:10,469 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-03-02 17:21:10,469 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-03-02 17:22:45,102 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:45,104 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:45,106 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:22:45,108 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:22:45,109 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:22:45,111 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:22:45,112 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:22:45,114 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:22:45,115 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:22:45,116 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:22:45,117 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:45,119 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:22:48,282 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:48,282 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:48,283 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:22:48,285 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:22:48,287 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:22:48,288 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:22:48,289 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:22:48,290 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:22:48,291 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:48,293 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:22:49,990 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:49,991 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:49,993 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 17:22:49,993 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 17:22:49,995 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 17:22:49,995 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 17:22:49,996 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 17:22:49,996 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:49,998 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 17:22:51,635 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:51,636 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:51,637 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:22:51,638 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:22:51,639 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:22:51,640 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:22:51,641 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:22:51,642 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:22:51,644 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:22:51,645 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:22:51,647 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:51,647 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:22:52,524 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:52,525 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:52,531 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 17:22:52,534 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 17:22:52,540 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 17:22:52,544 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 17:22:52,549 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 17:22:52,552 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:52,561 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 17:22:53,037 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:22:53,038 INFO  [stdout] (default task-1)     select
+2023-03-02 17:22:53,039 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:22:53,040 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:22:53,041 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:22:53,041 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:22:53,042 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:22:53,042 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:22:53,042 INFO  [stdout] (default task-1)     from
+2023-03-02 17:22:53,044 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:23:01,537 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:23:01,538 INFO  [stdout] (default task-1)     select
+2023-03-02 17:23:01,539 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:23:01,539 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:23:01,540 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:23:01,544 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:23:01,545 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:23:01,546 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:23:01,547 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:23:01,548 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:23:01,549 INFO  [stdout] (default task-1)     from
+2023-03-02 17:23:01,550 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:23:03,737 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:23:03,737 INFO  [stdout] (default task-1)     select
+2023-03-02 17:23:03,738 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:23:03,739 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:23:03,740 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:23:03,741 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:23:03,742 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:23:03,743 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:23:03,745 INFO  [stdout] (default task-1)     from
+2023-03-02 17:23:03,746 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:25:36,784 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\e0\3295bfbcffd3d14d2efda02f95b5572ff33400\content
+2023-03-02 17:25:36,800 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 104) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:25:36,836 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:25:36,842 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 123) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1841c594
+2023-03-02 17:25:36,849 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:25:37,127 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 337ms
+2023-03-02 17:25:37,132 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:25:39,917 INFO  [org.jboss.as.jpa] (MSC service thread 1-7) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:25:39,964 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:25:39,985 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:25:40,001 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 123) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:25:40,034 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:25:40,034 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:25:40,035 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:25:40,035 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:25:40,042 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:25:40,043 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 123) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:25:40,056 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 123) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:25:40,086 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:25:40,089 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:25:40,089 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:25:40,145 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:25:40,200 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 123) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:25:40,213 INFO  [SQL dialect] (ServerService Thread Pool -- 123) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:25:40,219 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 123) Envers integration enabled? : true
+2023-03-02 17:25:40,479 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 133) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:25:40,587 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:25:40,598 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\7d\a353a7e93d48d362126af4df0d376863a8ad68\content
+2023-03-02 17:26:52,716 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:26:52,716 INFO  [stdout] (default task-1)     select
+2023-03-02 17:26:52,717 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:26:52,718 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:26:52,718 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:26:52,719 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:26:52,719 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:26:52,720 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:26:52,721 INFO  [stdout] (default task-1)     from
+2023-03-02 17:26:52,722 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:26:53,950 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:26:53,950 INFO  [stdout] (default task-1)     select
+2023-03-02 17:26:53,951 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:26:53,952 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:26:53,953 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:26:53,953 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:26:53,954 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:26:53,955 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:26:53,956 INFO  [stdout] (default task-1)     from
+2023-03-02 17:26:53,956 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:26:57,991 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:26:57,992 INFO  [stdout] (default task-1)     select
+2023-03-02 17:26:57,993 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:26:57,994 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:26:57,994 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:26:57,994 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:26:57,994 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:26:57,996 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:26:57,997 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:26:57,999 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:26:58,001 INFO  [stdout] (default task-1)     from
+2023-03-02 17:26:58,001 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:27:38,626 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\41\72f3897feb56e257565aeb8eddff1c79c2b726\content
+2023-03-02 17:27:38,631 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 133) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:27:38,648 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:27:38,649 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 141) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@2febed0e
+2023-03-02 17:27:38,651 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:27:38,905 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 275ms
+2023-03-02 17:27:38,907 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:27:41,028 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:27:41,166 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:27:41,194 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 141) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:27:41,211 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:27:41,224 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:27:41,224 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 141) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:27:41,238 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 141) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:27:41,262 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:27:41,262 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:27:41,263 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:27:41,264 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:27:41,295 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-1) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:27:41,297 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:27:41,297 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:27:41,359 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:27:41,423 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 141) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:27:41,428 INFO  [SQL dialect] (ServerService Thread Pool -- 141) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:27:41,431 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 141) Envers integration enabled? : true
+2023-03-02 17:27:41,672 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 152) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:27:41,699 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:27:41,702 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\e0\3295bfbcffd3d14d2efda02f95b5572ff33400\content
+2023-03-02 17:27:46,714 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:27:46,714 INFO  [stdout] (default task-1)     select
+2023-03-02 17:27:46,714 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:27:46,716 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:27:46,717 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:27:46,717 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:27:46,718 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:27:46,718 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:27:46,719 INFO  [stdout] (default task-1)     from
+2023-03-02 17:27:46,720 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:31:38,503 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\82\d8f1d656f231384ec95d0da9350f611abf5293\content
+2023-03-02 17:31:38,529 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 152) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:31:38,567 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 173) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:31:38,569 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 173) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3fc4e61d
+2023-03-02 17:31:38,571 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 173) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:31:38,806 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 284ms
+2023-03-02 17:31:38,809 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:31:41,232 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:31:41,280 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:31:41,297 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 173) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:31:41,308 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:31:41,317 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 173) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:31:41,317 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 173) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:31:41,327 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 173) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:31:41,350 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:31:41,350 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:31:41,351 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:31:41,352 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:31:41,391 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:31:41,393 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:31:41,394 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:31:41,437 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:31:41,496 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 173) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:31:41,504 INFO  [SQL dialect] (ServerService Thread Pool -- 173) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:31:41,507 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 173) Envers integration enabled? : true
+2023-03-02 17:31:41,747 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 176) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:31:41,790 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:31:41,793 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\41\72f3897feb56e257565aeb8eddff1c79c2b726\content
+2023-03-02 17:31:53,091 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:31:53,091 INFO  [stdout] (default task-1)     select
+2023-03-02 17:31:53,092 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:31:53,092 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:31:53,094 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:31:53,096 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:31:53,096 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:31:53,096 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:31:53,097 INFO  [stdout] (default task-1)     from
+2023-03-02 17:31:53,097 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:32:19,800 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\38\bfec4f0a5a8822e2cc9ae6e0fefc1fe7f47550\content
+2023-03-02 17:32:19,802 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 176) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:32:19,811 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:32:19,812 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 188) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@7c5d095a
+2023-03-02 17:32:19,813 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:32:20,002 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 200ms
+2023-03-02 17:32:20,005 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:32:22,267 INFO  [org.jboss.as.jpa] (MSC service thread 1-6) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:32:22,315 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:32:22,325 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 188) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:32:22,333 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:32:22,338 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:32:22,339 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 188) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:32:22,347 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 188) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:32:22,368 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:32:22,368 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:32:22,369 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:32:22,371 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:32:22,399 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-3) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:32:22,401 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:32:22,401 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:32:22,438 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:32:22,472 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 188) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:32:22,475 INFO  [SQL dialect] (ServerService Thread Pool -- 188) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:32:22,478 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 188) Envers integration enabled? : true
+2023-03-02 17:32:22,709 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 204) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:32:22,730 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:32:22,734 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\82\d8f1d656f231384ec95d0da9350f611abf5293\content
+2023-03-02 17:32:33,143 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:32:33,144 INFO  [stdout] (default task-1)     select
+2023-03-02 17:32:33,145 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:32:33,146 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:32:33,146 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:32:33,147 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:32:33,148 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:32:33,148 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:32:33,149 INFO  [stdout] (default task-1)     from
+2023-03-02 17:32:33,149 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:02,808 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\98\2c3eeb16713679dd5f8ab7a70f277ddcdc6720\content
+2023-03-02 17:33:02,811 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 204) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:33:02,836 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 223) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:33:02,836 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 223) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@6f1b4848
+2023-03-02 17:33:02,837 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 223) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:33:03,085 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 275ms
+2023-03-02 17:33:03,087 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:33:05,216 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:33:05,283 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:33:05,303 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 223) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:33:05,319 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:33:05,344 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 223) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:33:05,344 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 223) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:33:05,353 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 223) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:33:05,373 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:33:05,373 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:33:05,373 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:33:05,375 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-8) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:33:05,414 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-8) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:33:05,416 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:33:05,416 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-8) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:33:05,484 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:33:05,534 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 223) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:33:05,539 INFO  [SQL dialect] (ServerService Thread Pool -- 223) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:33:05,542 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 223) Envers integration enabled? : true
+2023-03-02 17:33:05,716 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 233) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:33:05,737 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:33:05,739 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\38\bfec4f0a5a8822e2cc9ae6e0fefc1fe7f47550\content
+2023-03-02 17:33:10,306 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:10,306 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:10,307 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:10,308 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:10,308 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:10,309 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:10,310 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:10,310 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:10,311 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:10,311 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:12,652 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:12,652 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:12,653 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:12,654 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:12,655 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:12,655 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:12,656 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:12,656 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:12,657 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:12,658 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:13,792 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:13,792 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:13,794 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:13,795 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:13,796 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:13,797 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:13,798 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:13,799 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:13,799 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:13,800 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:14,743 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:14,743 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:14,745 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:14,746 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:14,746 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:14,747 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:14,747 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:14,748 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:14,749 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:14,749 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:15,701 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:15,702 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:15,703 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:15,704 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:15,704 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:15,705 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:15,706 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:15,707 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:15,707 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:15,708 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:33:20,891 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:33:20,891 INFO  [stdout] (default task-1)     select
+2023-03-02 17:33:20,892 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:33:20,893 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:33:20,894 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:33:20,895 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:33:20,896 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:33:20,897 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:33:20,898 INFO  [stdout] (default task-1)     from
+2023-03-02 17:33:20,899 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:37:06,234 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\d9\bc48d5302ff5e008f1eff801123608cba082fb\content
+2023-03-02 17:37:06,237 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 233) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:37:06,248 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 252) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:37:06,249 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 252) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@726f9aaf
+2023-03-02 17:37:06,250 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 252) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:37:06,455 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 218ms
+2023-03-02 17:37:06,457 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:37:09,472 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:37:09,515 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:37:09,525 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 252) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:37:09,531 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:37:09,537 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 252) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:37:09,537 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 252) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:37:09,543 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 252) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:37:09,562 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:37:09,562 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:37:09,563 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:37:09,564 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:37:09,592 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:37:09,593 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:37:09,594 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:37:09,628 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:37:09,663 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 252) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:37:09,667 INFO  [SQL dialect] (ServerService Thread Pool -- 252) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:37:09,670 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 252) Envers integration enabled? : true
+2023-03-02 17:37:09,861 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 256) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:37:09,885 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:37:09,887 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\98\2c3eeb16713679dd5f8ab7a70f277ddcdc6720\content
+2023-03-02 17:37:16,871 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:37:16,871 INFO  [stdout] (default task-1)     select
+2023-03-02 17:37:16,872 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:37:16,873 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:37:16,873 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:37:16,874 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:37:16,875 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:37:16,875 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:37:16,876 INFO  [stdout] (default task-1)     from
+2023-03-02 17:37:16,876 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:37:20,175 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:37:20,175 INFO  [stdout] (default task-1)     select
+2023-03-02 17:37:20,176 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:37:20,176 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:37:20,177 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:37:20,178 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:37:20,179 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:37:20,179 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:37:20,180 INFO  [stdout] (default task-1)     from
+2023-03-02 17:37:20,180 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:38:10,330 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\52\77eb2ac27dfb8dd614c2281563f4bbbdd5a653\content
+2023-03-02 17:38:10,334 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 256) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:38:10,345 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:38:10,345 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 276) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@76303cec
+2023-03-02 17:38:10,346 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:38:10,571 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 237ms
+2023-03-02 17:38:10,572 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:38:12,669 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:38:12,719 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:38:12,728 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 276) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:38:12,738 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:38:12,738 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:38:12,739 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 276) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:38:12,753 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 276) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:38:12,770 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:38:12,771 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:38:12,775 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:38:12,776 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:38:12,805 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-3) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:38:12,808 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:38:12,808 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:38:12,852 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:38:12,883 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 276) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:38:12,887 INFO  [SQL dialect] (ServerService Thread Pool -- 276) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:38:12,890 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 276) Envers integration enabled? : true
+2023-03-02 17:38:13,112 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 282) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:38:13,132 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:38:13,135 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\d9\bc48d5302ff5e008f1eff801123608cba082fb\content
+2023-03-02 17:40:03,396 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\71\48962926918f92812e7114e9fb8e736b503979\content
+2023-03-02 17:40:03,398 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 282) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:40:03,406 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 298) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:40:03,407 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 298) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3754409c
+2023-03-02 17:40:03,407 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 298) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:40:03,640 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 242ms
+2023-03-02 17:40:03,642 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:40:06,334 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:40:06,374 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:40:06,388 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 298) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:40:06,405 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 298) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:40:06,405 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 298) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:40:06,406 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:40:06,415 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 298) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:40:06,435 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:40:06,436 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:40:06,436 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:40:06,438 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:40:06,470 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-4) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:40:06,472 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-4) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:40:06,473 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-4) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:40:06,509 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:40:06,550 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 298) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:40:06,556 INFO  [SQL dialect] (ServerService Thread Pool -- 298) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:40:06,559 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 298) Envers integration enabled? : true
+2023-03-02 17:40:06,769 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 283) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:40:06,802 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:40:06,806 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\52\77eb2ac27dfb8dd614c2281563f4bbbdd5a653\content
+2023-03-02 17:40:18,057 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:40:18,057 INFO  [stdout] (default task-1)     select
+2023-03-02 17:40:18,058 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 17:40:18,059 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 17:40:18,059 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 17:40:18,060 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 17:40:18,061 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 17:40:18,062 INFO  [stdout] (default task-1)     from
+2023-03-02 17:40:18,063 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 17:40:20,196 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:40:20,197 INFO  [stdout] (default task-1)     select
+2023-03-02 17:40:20,198 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:40:20,200 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:40:20,200 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:40:20,201 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:40:20,201 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:40:20,202 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:40:20,203 INFO  [stdout] (default task-1)     from
+2023-03-02 17:40:20,203 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:44:27,670 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\5d\57009eaa1a22673b5d394c49a596b171df1dcc\content
+2023-03-02 17:44:27,679 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 283) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:44:27,692 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 341) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:44:27,694 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 341) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@74ebaf9
+2023-03-02 17:44:27,696 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 341) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:44:27,874 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 195ms
+2023-03-02 17:44:27,877 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:44:30,983 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:44:31,040 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:44:31,057 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 341) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:44:31,067 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:44:31,071 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 341) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:44:31,071 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 341) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:44:31,081 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 341) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:44:31,118 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:44:31,119 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:44:31,120 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:44:31,121 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:44:31,167 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:44:31,169 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:44:31,169 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:44:31,221 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:44:31,280 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 341) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:44:31,286 INFO  [SQL dialect] (ServerService Thread Pool -- 341) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:44:31,290 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 341) Envers integration enabled? : true
+2023-03-02 17:44:31,470 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 344) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:44:31,492 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:44:31,495 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\71\48962926918f92812e7114e9fb8e736b503979\content
+2023-03-02 17:44:34,922 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:34,922 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:34,923 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:44:34,923 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:44:34,924 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:44:34,924 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:44:34,925 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:44:34,925 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:44:34,926 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:44:34,926 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:44:34,927 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:34,928 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:44:36,100 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:36,101 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:36,101 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:44:36,102 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:44:36,102 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:44:36,103 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:44:36,103 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:44:36,103 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:44:36,104 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:36,104 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:44:37,015 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:37,015 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:37,016 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:44:37,017 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:44:37,017 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:44:37,018 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:44:37,018 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:44:37,019 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:44:37,019 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:44:37,020 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:44:37,020 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:37,021 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:44:41,055 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:41,056 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:41,056 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:44:41,058 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:44:41,058 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:44:41,059 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:44:41,060 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:44:41,060 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:44:41,060 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:44:41,061 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:44:41,063 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:41,063 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:44:55,730 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:55,730 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:55,731 INFO  [stdout] (default task-1)         next_val as id_val 
+2023-03-02 17:44:55,733 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:55,733 INFO  [stdout] (default task-1)         sq_cliente for update
+2023-03-02 17:44:55,754 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:55,755 INFO  [stdout] (default task-1)     update
+2023-03-02 17:44:55,755 INFO  [stdout] (default task-1)         sq_cliente 
+2023-03-02 17:44:55,758 INFO  [stdout] (default task-1)     set
+2023-03-02 17:44:55,761 INFO  [stdout] (default task-1)         next_val= ? 
+2023-03-02 17:44:55,761 INFO  [stdout] (default task-1)     where
+2023-03-02 17:44:55,765 INFO  [stdout] (default task-1)         next_val=?
+2023-03-02 17:44:55,875 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:55,876 INFO  [stdout] (default task-1)     insert 
+2023-03-02 17:44:55,876 INFO  [stdout] (default task-1)     into
+2023-03-02 17:44:55,878 INFO  [stdout] (default task-1)         tb_cliente
+2023-03-02 17:44:55,879 INFO  [stdout] (default task-1)         (cidade, cpf, endereco, estado, nome, numero, tel, id) 
+2023-03-02 17:44:55,881 INFO  [stdout] (default task-1)     values
+2023-03-02 17:44:55,882 INFO  [stdout] (default task-1)         (?, ?, ?, ?, ?, ?, ?, ?)
+2023-03-02 17:44:55,909 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:55,909 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:55,910 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:44:55,910 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:44:55,911 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:44:55,911 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:44:55,912 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:44:55,912 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:44:55,913 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:44:55,913 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:44:55,914 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:55,914 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:44:59,231 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:44:59,231 INFO  [stdout] (default task-1)     select
+2023-03-02 17:44:59,233 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:44:59,234 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:44:59,235 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:44:59,235 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:44:59,237 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:44:59,237 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:44:59,238 INFO  [stdout] (default task-1)     from
+2023-03-02 17:44:59,239 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:45:00,203 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:45:00,203 INFO  [stdout] (default task-1)     select
+2023-03-02 17:45:00,204 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:45:00,206 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:45:00,206 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:45:00,207 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:45:00,207 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:45:00,208 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:45:00,208 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:45:00,209 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:45:00,209 INFO  [stdout] (default task-1)     from
+2023-03-02 17:45:00,210 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 17:45:39,984 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\d4\82132a795b202c2607fb33620cd0049a836caf\content
+2023-03-02 17:45:39,986 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 344) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 17:45:39,996 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 360) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:45:39,997 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 360) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@8827a73
+2023-03-02 17:45:39,999 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 360) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:45:40,172 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 186ms
+2023-03-02 17:45:40,174 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 17:45:42,278 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 17:45:42,316 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:45:42,326 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 360) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 17:45:42,332 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 17:45:42,337 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 360) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:45:42,337 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 360) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 17:45:42,345 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 360) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 17:45:42,362 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 17:45:42,362 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 17:45:42,363 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 17:45:42,364 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 17:45:42,409 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-3) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 17:45:42,411 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 17:45:42,412 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 17:45:42,451 INFO  [org.jipijapa] (MSC service thread 1-1) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 17:45:42,488 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 360) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 17:45:42,492 INFO  [SQL dialect] (ServerService Thread Pool -- 360) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 17:45:42,495 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 360) Envers integration enabled? : true
+2023-03-02 17:45:42,683 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 361) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 17:45:42,707 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 17:45:42,713 INFO  [org.jboss.as.repository] (management-handler-thread - 1) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\5d\57009eaa1a22673b5d394c49a596b171df1dcc\content
+2023-03-02 17:45:47,869 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:45:47,870 INFO  [stdout] (default task-1)     select
+2023-03-02 17:45:47,871 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:45:47,871 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:45:47,872 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:45:47,873 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:45:47,875 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:45:47,875 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:45:47,876 INFO  [stdout] (default task-1)     from
+2023-03-02 17:45:47,876 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:45:49,159 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:45:49,160 INFO  [stdout] (default task-1)     select
+2023-03-02 17:45:49,161 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 17:45:49,162 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 17:45:49,162 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 17:45:49,164 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 17:45:49,164 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 17:45:49,164 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 17:45:49,165 INFO  [stdout] (default task-1)     from
+2023-03-02 17:45:49,166 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 17:45:50,151 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 17:45:50,151 INFO  [stdout] (default task-1)     select
+2023-03-02 17:45:50,152 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 17:45:50,153 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 17:45:50,154 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 17:45:50,155 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 17:45:50,156 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 17:45:50,157 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 17:45:50,157 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 17:45:50,158 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 17:45:50,158 INFO  [stdout] (default task-1)     from
+2023-03-02 17:45:50,159 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 18:04:19,103 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\30\db9474631c8c8396453440bfc6a43cb637aed9\content
+2023-03-02 18:04:19,212 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 361) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:04:19,439 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 363) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:04:19,465 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 363) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@51516f4
+2023-03-02 18:04:19,481 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 363) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:04:19,840 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 669ms
+2023-03-02 18:04:19,850 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:04:22,145 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:04:22,218 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:04:22,302 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 363) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:04:22,375 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 363) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:04:22,377 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 363) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:04:22,411 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 363) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:04:22,420 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:04:22,495 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:04:22,496 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:04:22,497 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:04:22,498 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-1) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:04:22,581 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-1) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:04:22,588 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-1) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:04:22,589 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-1) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:04:22,706 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:04:22,777 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 363) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:04:22,890 INFO  [SQL dialect] (ServerService Thread Pool -- 363) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:04:22,896 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 363) Envers integration enabled? : true
+2023-03-02 18:04:23,181 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 382) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:04:23,242 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:04:23,245 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\d4\82132a795b202c2607fb33620cd0049a836caf\content
+2023-03-02 18:04:29,792 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:04:29,792 INFO  [stdout] (default task-1)     select
+2023-03-02 18:04:29,793 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 18:04:29,794 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 18:04:29,794 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 18:04:29,795 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 18:04:29,795 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 18:04:29,796 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 18:04:29,797 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 18:04:29,797 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 18:04:29,797 INFO  [stdout] (default task-1)     from
+2023-03-02 18:04:29,799 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 18:05:04,555 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:05:04,555 INFO  [stdout] (default task-1)     select
+2023-03-02 18:05:04,556 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 18:05:04,557 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 18:05:04,558 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 18:05:04,558 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 18:05:04,559 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 18:05:04,559 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 18:05:04,560 INFO  [stdout] (default task-1)     from
+2023-03-02 18:05:04,561 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 18:05:06,520 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:05:06,521 INFO  [stdout] (default task-1)     select
+2023-03-02 18:05:06,521 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 18:05:06,522 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 18:05:06,523 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 18:05:06,523 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 18:05:06,524 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 18:05:06,525 INFO  [stdout] (default task-1)     from
+2023-03-02 18:05:06,525 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 18:05:08,352 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:05:08,352 INFO  [stdout] (default task-1)     select
+2023-03-02 18:05:08,354 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 18:05:08,355 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 18:05:08,356 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 18:05:08,357 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 18:05:08,357 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 18:05:08,358 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 18:05:08,359 INFO  [stdout] (default task-1)     from
+2023-03-02 18:05:08,360 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 18:06:26,238 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\f5\8e982e5baff5a7b4fb2a3b25be0491dd5fc50a\content
+2023-03-02 18:06:26,240 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 382) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:06:26,251 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 402) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:06:26,251 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 402) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@56fec269
+2023-03-02 18:06:26,252 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 402) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:06:26,422 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 182ms
+2023-03-02 18:06:26,423 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:06:28,436 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:06:28,471 INFO  [org.jipijapa] (MSC service thread 1-5) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:06:28,478 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 402) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:06:28,485 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:06:28,486 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 402) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:06:28,487 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 402) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:06:28,492 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 402) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:06:28,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:06:28,511 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:06:28,512 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:06:28,513 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-3) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:06:28,542 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-3) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:06:28,545 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-3) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:06:28,545 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-3) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:06:28,578 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:06:28,612 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 402) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:06:28,615 INFO  [SQL dialect] (ServerService Thread Pool -- 402) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:06:28,618 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 402) Envers integration enabled? : true
+2023-03-02 18:06:28,791 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 407) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:06:28,816 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:06:28,821 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\30\db9474631c8c8396453440bfc6a43cb637aed9\content
+2023-03-02 18:09:41,227 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:41,227 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:41,228 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 18:09:41,229 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 18:09:41,232 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 18:09:41,233 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 18:09:41,235 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 18:09:41,235 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 18:09:41,236 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 18:09:41,236 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 18:09:41,237 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:41,241 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 18:09:41,251 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:41,251 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:41,252 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 18:09:41,254 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 18:09:41,256 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 18:09:41,256 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 18:09:41,257 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 18:09:41,257 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:41,258 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 18:09:44,196 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:44,196 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:44,197 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 18:09:44,198 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 18:09:44,198 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 18:09:44,199 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 18:09:44,200 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 18:09:44,202 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:44,202 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 18:09:46,831 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:46,832 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:46,832 INFO  [stdout] (default task-1)         v1_0.id,
+2023-03-02 18:09:46,833 INFO  [stdout] (default task-1)         v1_0.id_cliente_fk,
+2023-03-02 18:09:46,835 INFO  [stdout] (default task-1)         v1_0.codigo,
+2023-03-02 18:09:46,835 INFO  [stdout] (default task-1)         v1_0.data_venda,
+2023-03-02 18:09:46,836 INFO  [stdout] (default task-1)         v1_0.status_venda,
+2023-03-02 18:09:46,836 INFO  [stdout] (default task-1)         v1_0.valor_total 
+2023-03-02 18:09:46,837 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:46,837 INFO  [stdout] (default task-1)         tb_venda v1_0
+2023-03-02 18:09:48,700 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:48,701 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:48,702 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 18:09:48,703 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 18:09:48,703 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 18:09:48,705 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 18:09:48,705 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 18:09:48,706 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 18:09:48,706 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 18:09:48,707 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 18:09:48,707 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:48,708 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 18:09:48,713 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:09:48,713 INFO  [stdout] (default task-1)     select
+2023-03-02 18:09:48,714 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 18:09:48,715 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 18:09:48,715 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 18:09:48,717 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 18:09:48,721 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 18:09:48,721 INFO  [stdout] (default task-1)     from
+2023-03-02 18:09:48,722 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 18:14:09,060 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\37\5789cf3649821d50cbfdc623148e7513cd6760\content
+2023-03-02 18:14:09,088 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 407) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:14:09,185 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 422) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:14:09,200 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 422) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5515d157
+2023-03-02 18:14:09,208 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 422) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:14:09,467 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 389ms
+2023-03-02 18:14:09,473 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:14:12,394 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:14:12,476 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:14:12,537 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 422) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:14:12,553 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:14:12,591 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 422) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:14:12,592 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 422) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:14:12,601 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:14:12,602 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:14:12,603 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:14:12,607 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:14:12,609 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 422) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:14:12,663 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-6) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:14:12,669 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:14:12,670 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-6) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:14:12,724 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:14:12,780 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 422) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:14:12,794 INFO  [SQL dialect] (ServerService Thread Pool -- 422) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:14:12,801 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 422) Envers integration enabled? : true
+2023-03-02 18:14:13,092 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 424) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:14:13,142 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:14:13,145 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\f5\8e982e5baff5a7b4fb2a3b25be0491dd5fc50a\content
+2023-03-02 18:14:19,634 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:14:19,634 INFO  [stdout] (default task-1)     select
+2023-03-02 18:14:19,635 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-02 18:14:19,636 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-02 18:14:19,636 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-02 18:14:19,637 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-02 18:14:19,637 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-02 18:14:19,638 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-02 18:14:19,638 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-02 18:14:19,639 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-02 18:14:19,640 INFO  [stdout] (default task-1)     from
+2023-03-02 18:14:19,640 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-02 18:14:19,649 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-02 18:14:19,650 INFO  [stdout] (default task-1)     select
+2023-03-02 18:14:19,651 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-02 18:14:19,651 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-02 18:14:19,652 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-02 18:14:19,652 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-02 18:14:19,653 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-02 18:14:19,656 INFO  [stdout] (default task-1)     from
+2023-03-02 18:14:19,657 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-02 18:14:31,986 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:14:31,986 INFO  [stdout] (default task-2)     select
+2023-03-02 18:14:31,987 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:14:31,988 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:14:31,988 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:14:31,989 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:14:31,990 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:14:31,991 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:14:31,992 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:14:31,993 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:14:31,994 INFO  [stdout] (default task-2)     from
+2023-03-02 18:14:31,995 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:14:31,985 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /Vendas/cliente-form-new: java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Long.parseLong(Long.java:671)
+	at java.base/java.lang.Long.parseLong(Long.java:831)
+	at deployment.Vendas.war//br.com.lucasatolini.controllers.ClienteController.cadastrarCliente(ClienteController.java:121)
+	at deployment.Vendas.war//br.com.lucasatolini.controllers.ClienteController.doGet(ClienteController.java:34)
+	at deployment.Vendas.war//br.com.lucasatolini.controllers.ClienteController.doPost(ClienteController.java:24)
+	at jakarta.servlet.api@6.0.0//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:547)
+	at jakarta.servlet.api@6.0.0//jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.smallrye.opentracing-contrib//io.smallrye.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:69)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.lambda$handleRequest$1(ElytronRunAsHandler.java:68)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.FlexibleIdentityAssociation.runAsFunctionEx(FlexibleIdentityAssociation.java:103)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAsFunctionEx(Scoped.java:161)
+	at org.wildfly.security.elytron-base@2.0.0.Final//org.wildfly.security.auth.server.Scoped.runAs(Scoped.java:73)
+	at org.wildfly.security.elytron-web.undertow-server@3.0.0.Final//org.wildfly.elytron.web.undertow.server.ElytronRunAsHandler.handleRequest(ElytronRunAsHandler.java:67)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:117)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.3.0.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at org.wildfly.security.elytron-web.undertow-server-servlet@3.0.0.Final//org.wildfly.elytron.web.undertow.server.servlet.CleanUpHandler.handleRequest(CleanUpHandler.java:38)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:275)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:134)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:131)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at org.wildfly.extension.undertow@27.0.1.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1435)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:255)
+	at io.undertow.servlet@2.3.0.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:100)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:391)
+	at io.undertow.core@2.3.0.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:859)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.jboss.xnio@3.8.8.Final//org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1282)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+2023-03-02 18:14:33,708 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:14:33,709 INFO  [stdout] (default task-2)     select
+2023-03-02 18:14:33,712 INFO  [stdout] (default task-2)         v1_0.id,
+2023-03-02 18:14:33,713 INFO  [stdout] (default task-2)         v1_0.id_cliente_fk,
+2023-03-02 18:14:33,714 INFO  [stdout] (default task-2)         v1_0.codigo,
+2023-03-02 18:14:33,714 INFO  [stdout] (default task-2)         v1_0.data_venda,
+2023-03-02 18:14:33,715 INFO  [stdout] (default task-2)         v1_0.status_venda,
+2023-03-02 18:14:33,716 INFO  [stdout] (default task-2)         v1_0.valor_total 
+2023-03-02 18:14:33,716 INFO  [stdout] (default task-2)     from
+2023-03-02 18:14:33,717 INFO  [stdout] (default task-2)         tb_venda v1_0
+2023-03-02 18:14:34,291 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:14:34,291 INFO  [stdout] (default task-2)     select
+2023-03-02 18:14:34,293 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:14:34,294 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:14:34,296 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:14:34,297 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:14:34,297 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:14:34,298 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:14:34,298 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:14:34,299 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:14:34,300 INFO  [stdout] (default task-2)     from
+2023-03-02 18:14:34,300 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:14:34,305 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:14:34,306 INFO  [stdout] (default task-2)     select
+2023-03-02 18:14:34,306 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:14:34,307 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:14:34,307 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:14:34,308 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:14:34,309 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:14:34,309 INFO  [stdout] (default task-2)     from
+2023-03-02 18:14:34,310 INFO  [stdout] (default task-2)         tb_produto p1_0
+2023-03-02 18:17:05,305 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\02\e44603188c9e6cba04f890063604ebfea7174b\content
+2023-03-02 18:17:05,308 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 424) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:17:05,321 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 443) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:17:05,322 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 443) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3a71545f
+2023-03-02 18:17:05,323 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 443) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:17:05,548 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 241ms
+2023-03-02 18:17:05,549 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:17:09,652 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:17:09,774 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:17:09,837 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 443) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:17:09,863 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 443) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:17:09,864 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 443) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:17:09,874 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 443) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:17:09,874 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:17:09,930 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:17:09,932 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:17:09,934 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:17:09,937 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-5) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:17:10,032 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-5) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:17:10,038 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:17:10,039 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-5) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:17:10,129 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:17:10,216 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 443) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:17:10,232 INFO  [SQL dialect] (ServerService Thread Pool -- 443) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:17:10,236 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 443) Envers integration enabled? : true
+2023-03-02 18:17:10,549 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 448) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:17:10,613 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:17:10,616 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\37\5789cf3649821d50cbfdc623148e7513cd6760\content
+2023-03-02 18:17:15,899 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:17:15,899 INFO  [stdout] (default task-2)     select
+2023-03-02 18:17:15,900 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:17:15,900 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:17:15,901 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:17:15,901 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:17:15,902 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:17:15,902 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:17:15,902 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:17:15,903 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:17:15,904 INFO  [stdout] (default task-2)     from
+2023-03-02 18:17:15,904 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:17:15,913 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:17:15,914 INFO  [stdout] (default task-2)     select
+2023-03-02 18:17:15,915 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:17:15,916 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:17:15,916 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:17:15,917 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:17:15,917 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:17:15,917 INFO  [stdout] (default task-2)     from
+2023-03-02 18:17:15,918 INFO  [stdout] (default task-2)         tb_produto p1_0
+2023-03-02 18:19:43,924 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\71\7891554e28f9877da18174f4f89a2b0d40eddc\content
+2023-03-02 18:19:43,927 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 448) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:19:43,935 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 467) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:19:43,936 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 467) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@52559c29
+2023-03-02 18:19:43,937 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 467) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:19:44,104 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 178ms
+2023-03-02 18:19:44,106 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:19:46,240 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:19:46,311 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:19:46,328 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 467) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:19:46,342 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 467) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:19:46,343 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:19:46,343 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 467) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:19:46,357 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 467) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:19:46,396 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:19:46,396 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:19:46,398 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:19:46,399 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:19:46,464 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:19:46,467 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:19:46,468 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:19:46,518 INFO  [org.jipijapa] (MSC service thread 1-4) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:19:46,557 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 467) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:19:46,562 INFO  [SQL dialect] (ServerService Thread Pool -- 467) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:19:46,566 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 467) Envers integration enabled? : true
+2023-03-02 18:19:46,780 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 474) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:19:46,800 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:19:46,803 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\02\e44603188c9e6cba04f890063604ebfea7174b\content
+2023-03-02 18:19:51,850 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:19:51,851 INFO  [stdout] (default task-2)     select
+2023-03-02 18:19:51,851 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:19:51,852 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:19:51,853 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:19:51,854 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:19:51,854 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:19:51,855 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:19:51,855 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:19:51,856 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:19:51,856 INFO  [stdout] (default task-2)     from
+2023-03-02 18:19:51,857 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:19:51,865 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:19:51,865 INFO  [stdout] (default task-2)     select
+2023-03-02 18:19:51,865 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:19:51,866 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:19:51,866 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:19:51,867 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:19:51,867 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:19:51,868 INFO  [stdout] (default task-2)     from
+2023-03-02 18:19:51,868 INFO  [stdout] (default task-2)         tb_produto p1_0
+2023-03-02 18:20:21,114 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\73\a8ab18170a1423375e8c7817902aaf7ecfcbaf\content
+2023-03-02 18:20:21,116 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 474) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:20:21,123 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 493) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:20:21,124 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 493) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@14c516c4
+2023-03-02 18:20:21,126 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 493) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:20:21,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 259ms
+2023-03-02 18:20:21,377 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:20:23,953 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:20:23,999 INFO  [org.jipijapa] (MSC service thread 1-2) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:20:24,007 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 493) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:20:24,016 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:20:24,017 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 493) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:20:24,017 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 493) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:20:24,024 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 493) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:20:24,044 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:20:24,044 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:20:24,045 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:20:24,047 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:20:24,073 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:20:24,075 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:20:24,075 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:20:24,110 INFO  [org.jipijapa] (MSC service thread 1-7) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:20:24,139 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 493) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:20:24,142 INFO  [SQL dialect] (ServerService Thread Pool -- 493) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:20:24,145 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 493) Envers integration enabled? : true
+2023-03-02 18:20:24,319 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 500) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:20:24,342 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:20:24,347 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\71\7891554e28f9877da18174f4f89a2b0d40eddc\content
+2023-03-02 18:20:27,802 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:20:27,803 INFO  [stdout] (default task-2)     select
+2023-03-02 18:20:27,803 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:20:27,803 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:20:27,804 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:20:27,805 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:20:27,805 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:20:27,806 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:20:27,806 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:20:27,807 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:20:27,807 INFO  [stdout] (default task-2)     from
+2023-03-02 18:20:27,808 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:20:27,817 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:20:27,818 INFO  [stdout] (default task-2)     select
+2023-03-02 18:20:27,819 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:20:27,820 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:20:27,820 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:20:27,821 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:20:27,821 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:20:27,822 INFO  [stdout] (default task-2)     from
+2023-03-02 18:20:27,822 INFO  [stdout] (default task-2)         tb_produto p1_0
+2023-03-02 18:20:28,730 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:20:28,730 INFO  [stdout] (default task-2)     select
+2023-03-02 18:20:28,731 INFO  [stdout] (default task-2)         v1_0.id,
+2023-03-02 18:20:28,731 INFO  [stdout] (default task-2)         v1_0.id_cliente_fk,
+2023-03-02 18:20:28,732 INFO  [stdout] (default task-2)         v1_0.codigo,
+2023-03-02 18:20:28,733 INFO  [stdout] (default task-2)         v1_0.data_venda,
+2023-03-02 18:20:28,734 INFO  [stdout] (default task-2)         v1_0.status_venda,
+2023-03-02 18:20:28,734 INFO  [stdout] (default task-2)         v1_0.valor_total 
+2023-03-02 18:20:28,734 INFO  [stdout] (default task-2)     from
+2023-03-02 18:20:28,736 INFO  [stdout] (default task-2)         tb_venda v1_0
+2023-03-02 18:20:29,733 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:20:29,734 INFO  [stdout] (default task-2)     select
+2023-03-02 18:20:29,735 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:20:29,735 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:20:29,736 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:20:29,736 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:20:29,737 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:20:29,737 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:20:29,737 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:20:29,738 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:20:29,738 INFO  [stdout] (default task-2)     from
+2023-03-02 18:20:29,739 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:20:29,744 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:20:29,745 INFO  [stdout] (default task-2)     select
+2023-03-02 18:20:29,746 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:20:29,748 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:20:29,749 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:20:29,749 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:20:29,750 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:20:29,750 INFO  [stdout] (default task-2)     from
+2023-03-02 18:20:29,751 INFO  [stdout] (default task-2)         tb_produto p1_0
+2023-03-02 18:22:40,115 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0001: Content added at location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\b0\d4682ecd2979c205627a0082ace1f51c813e42\content
+2023-03-02 18:22:40,119 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 500) WFLYUT0022: Unregistered web context: '/Vendas' from server 'default-server'
+2023-03-02 18:22:40,129 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 519) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:22:40,130 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 519) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@3a4bcc5f
+2023-03-02 18:22:40,131 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 519) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:22:40,344 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment Vendas.war (runtime-name: Vendas.war) in 226ms
+2023-03-02 18:22:40,345 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "Vendas.war" (runtime-name: "Vendas.war")
+2023-03-02 18:22:42,466 INFO  [org.jboss.as.jpa] (MSC service thread 1-3) WFLYJPA0002: Read persistence.xml for MySQL
+2023-03-02 18:22:42,512 INFO  [org.jipijapa] (MSC service thread 1-8) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:22:42,522 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 519) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.marshalling.jboss.JBossMarshaller'
+2023-03-02 18:22:42,531 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment Vendas.war
+2023-03-02 18:22:42,533 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 519) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:22:42,534 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 519) HHH000204: Processing PersistenceUnitInfo [name: MySQL]
+2023-03-02 18:22:42,543 WARN  [org.hibernate.orm.deprecation] (ServerService Thread Pool -- 519) HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-03-02 18:22:42,557 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'GenericDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:app/Vendas/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:module/GenericDAO!br.com.lucasatolini.dao.interfaces.IGenericDAO
+	java:global/Vendas/GenericDAO
+	java:app/Vendas/GenericDAO
+	java:module/GenericDAO
+
+2023-03-02 18:22:42,558 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ProdutoDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:app/Vendas/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:module/ProdutoDAO!br.com.lucasatolini.dao.interfaces.IProdutoDAO
+	java:global/Vendas/ProdutoDAO
+	java:app/Vendas/ProdutoDAO
+	java:module/ProdutoDAO
+
+2023-03-02 18:22:42,559 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'ClienteDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:app/Vendas/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:module/ClienteDAO!br.com.lucasatolini.dao.interfaces.IClienteDAO
+	java:global/Vendas/ClienteDAO
+	java:app/Vendas/ClienteDAO
+	java:module/ClienteDAO
+
+2023-03-02 18:22:42,560 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-2) WFLYEJB0473: JNDI bindings for session bean named 'VendaDAO' in deployment unit 'deployment "Vendas.war"' are as follows:
+
+	java:global/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:app/Vendas/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:module/VendaDAO!br.com.lucasatolini.dao.interfaces.IVendaDAO
+	java:global/Vendas/VendaDAO
+	java:app/Vendas/VendaDAO
+	java:module/VendaDAO
+
+2023-03-02 18:22:42,600 WARN  [org.wildfly.extension.microprofile.opentracing] (MSC service thread 1-2) WFLYTRACEXT0012: No Jaeger endpoint or sender-binding configured. Installing a no-op sender
+2023-03-02 18:22:42,603 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
+2023-03-02 18:22:42,603 INFO  [org.wildfly.microprofile.opentracing.smallrye] (MSC service thread 1-2) WFLYTRAC0001: Tracer initialized: JaegerTracer(version=Java-1.6.0, serviceName=Vendas.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=ConstSampler(decision=true, tags={sampler.type=const, sampler.param=true}), tags={hostname=DESKTOP-6UVBIQ7, jaeger.version=Java-1.6.0, ip=192.168.10.213}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+2023-03-02 18:22:42,650 INFO  [org.jipijapa] (MSC service thread 1-6) JIPIORMV6020260: Second level cache enabled for Vendas.war#MySQL
+2023-03-02 18:22:42,689 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 519) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'Vendas.war#MySQL'
+2023-03-02 18:22:42,693 INFO  [SQL dialect] (ServerService Thread Pool -- 519) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-03-02 18:22:42,695 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 519) Envers integration enabled? : true
+2023-03-02 18:22:42,864 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 523) WFLYUT0021: Registered web context: '/Vendas' for server 'default-server'
+2023-03-02 18:22:42,889 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0016: Replaced deployment "Vendas.war" with deployment "Vendas.war"
+2023-03-02 18:22:42,891 INFO  [org.jboss.as.repository] (management-handler-thread - 2) WFLYDR0002: Content removed from location C:\Users\LALAMOVE\Desktop\l\WINDFLY\wildfly-27.0.1.Final\standalone\data\content\73\a8ab18170a1423375e8c7817902aaf7ecfcbaf\content
+2023-03-02 18:22:47,664 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:22:47,664 INFO  [stdout] (default task-2)     select
+2023-03-02 18:22:47,665 INFO  [stdout] (default task-2)         c1_0.id,
+2023-03-02 18:22:47,665 INFO  [stdout] (default task-2)         c1_0.cidade,
+2023-03-02 18:22:47,665 INFO  [stdout] (default task-2)         c1_0.cpf,
+2023-03-02 18:22:47,666 INFO  [stdout] (default task-2)         c1_0.endereco,
+2023-03-02 18:22:47,667 INFO  [stdout] (default task-2)         c1_0.estado,
+2023-03-02 18:22:47,667 INFO  [stdout] (default task-2)         c1_0.nome,
+2023-03-02 18:22:47,668 INFO  [stdout] (default task-2)         c1_0.numero,
+2023-03-02 18:22:47,668 INFO  [stdout] (default task-2)         c1_0.tel 
+2023-03-02 18:22:47,668 INFO  [stdout] (default task-2)     from
+2023-03-02 18:22:47,668 INFO  [stdout] (default task-2)         tb_cliente c1_0
+2023-03-02 18:22:47,679 INFO  [stdout] (default task-2) Hibernate: 
+2023-03-02 18:22:47,679 INFO  [stdout] (default task-2)     select
+2023-03-02 18:22:47,680 INFO  [stdout] (default task-2)         p1_0.id,
+2023-03-02 18:22:47,680 INFO  [stdout] (default task-2)         p1_0.codigo,
+2023-03-02 18:22:47,681 INFO  [stdout] (default task-2)         p1_0.descricao,
+2023-03-02 18:22:47,681 INFO  [stdout] (default task-2)         p1_0.nome,
+2023-03-02 18:22:47,682 INFO  [stdout] (default task-2)         p1_0.valor 
+2023-03-02 18:22:47,682 INFO  [stdout] (default task-2)     from
+2023-03-02 18:22:47,683 INFO  [stdout] (default task-2)         tb_produto p1_0

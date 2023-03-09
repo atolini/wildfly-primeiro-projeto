@@ -1,0 +1,52 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+  <display-name>Archetype Created Web Application</display-name>
+
+  <!-- CLIENTE -->
+  <servlet>
+    <servlet-name>cliente-servlet</servlet-name>
+    <servlet-class>br.com.lucasatolini.controllers.ClienteController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>cliente-servlet</servlet-name>
+    <url-pattern>/cliente</url-pattern>
+    <url-pattern>/cliente-edit</url-pattern>
+    <url-pattern>/cliente-delete</url-pattern>
+    <url-pattern>/cliente-form</url-pattern>
+    <url-pattern>/cliente-form-new</url-pattern>
+    <url-pattern>/cliente-form-edit</url-pattern>
+  </servlet-mapping>
+
+  <!-- PRODUTO -->
+  <servlet>
+    <servlet-name>produto-servlet</servlet-name>
+    <servlet-class>br.com.lucasatolini.controllers.ProdutoController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>produto-servlet</servlet-name>
+    <url-pattern>/produto</url-pattern>
+    <url-pattern>/produto-edit</url-pattern>
+    <url-pattern>/produto-delete</url-pattern>
+    <url-pattern>/produto-form</url-pattern>
+    <url-pattern>/produto-form-new</url-pattern>
+    <url-pattern>/produto-form-edit</url-pattern>
+  </servlet-mapping>
+
+  <!-- INDEX -->
+  <servlet>
+    <servlet-name>index</servlet-name>
+    <servlet-class>br.com.lucasatolini.controllers.IndexController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>index</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+</web-app>

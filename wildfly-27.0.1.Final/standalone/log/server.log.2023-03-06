@@ -1,0 +1,33 @@
+2023-03-06 12:52:00,014 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-06 12:52:00,285 INFO  [stdout] (default task-1)     select
+2023-03-06 12:52:00,285 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-06 12:52:00,293 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-06 12:52:00,294 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-06 12:52:00,299 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-06 12:52:00,300 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-06 12:52:00,300 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-06 12:52:00,301 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-06 12:52:00,311 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-06 12:52:00,312 INFO  [stdout] (default task-1)     from
+2023-03-06 12:52:00,314 INFO  [stdout] (default task-1)         tb_cliente c1_0
+2023-03-06 12:52:01,807 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-06 12:52:01,808 INFO  [stdout] (default task-1)     select
+2023-03-06 12:52:01,809 INFO  [stdout] (default task-1)         p1_0.id,
+2023-03-06 12:52:01,809 INFO  [stdout] (default task-1)         p1_0.codigo,
+2023-03-06 12:52:01,810 INFO  [stdout] (default task-1)         p1_0.descricao,
+2023-03-06 12:52:01,812 INFO  [stdout] (default task-1)         p1_0.nome,
+2023-03-06 12:52:01,816 INFO  [stdout] (default task-1)         p1_0.valor 
+2023-03-06 12:52:01,816 INFO  [stdout] (default task-1)     from
+2023-03-06 12:52:01,817 INFO  [stdout] (default task-1)         tb_produto p1_0
+2023-03-06 12:52:02,658 INFO  [stdout] (default task-1) Hibernate: 
+2023-03-06 12:52:02,660 INFO  [stdout] (default task-1)     select
+2023-03-06 12:52:02,661 INFO  [stdout] (default task-1)         c1_0.id,
+2023-03-06 12:52:02,661 INFO  [stdout] (default task-1)         c1_0.cidade,
+2023-03-06 12:52:02,662 INFO  [stdout] (default task-1)         c1_0.cpf,
+2023-03-06 12:52:02,662 INFO  [stdout] (default task-1)         c1_0.endereco,
+2023-03-06 12:52:02,663 INFO  [stdout] (default task-1)         c1_0.estado,
+2023-03-06 12:52:02,664 INFO  [stdout] (default task-1)         c1_0.nome,
+2023-03-06 12:52:02,664 INFO  [stdout] (default task-1)         c1_0.numero,
+2023-03-06 12:52:02,665 INFO  [stdout] (default task-1)         c1_0.tel 
+2023-03-06 12:52:02,665 INFO  [stdout] (default task-1)     from
+2023-03-06 12:52:02,666 INFO  [stdout] (default task-1)         tb_cliente c1_0
